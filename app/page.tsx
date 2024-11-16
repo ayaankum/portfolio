@@ -1,4 +1,5 @@
 "use client"
+import ContactForm from "@/components/Contact";
 import ExperienceSection from "@/components/Experience";
 import HeroSection  from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -11,6 +12,7 @@ export default function Home() {
     <ExperienceSection/>
     <SkillsSection/>
     <Projects/>
+    <ContactForm/>
     </>
   );
 }
