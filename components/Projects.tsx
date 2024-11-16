@@ -106,6 +106,7 @@ const Projects: React.FC = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                   >
+                    
                     <h3 className="text-xl font-bold text-blue-400 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
                       {project.name}
                     </h3>
