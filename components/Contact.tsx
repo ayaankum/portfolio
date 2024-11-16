@@ -1,3 +1,5 @@
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -15,9 +17,7 @@ type FormData = z.infer<typeof schema>;
 const ContactForm = () => {
   const {
     register,
-    handleSubmit,
     formState: { errors },
-    reset,
   } = useForm<FormData>({
     resolver: zodResolver(schema),
   });
