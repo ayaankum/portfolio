@@ -1,6 +1,8 @@
 'use client'
 
 import { useEffect, useRef} from 'react'
+import { Button } from "@/components/ui/button"
+
 // import { Button } from "@/components/ui/button"
 
 
@@ -104,12 +106,8 @@ export default function HeroSection() {
             <span className="text-blue-500"> developer</span>
           </h1>
           <div className="flex gap-4">
-            <button className="bg-white text-black hover:bg-gray-100">
-              Download CV
-            </button>
-            <button className="bg-[#1a2744] text-white hover:bg-[#243257]">
-              Contact Me
-            </button>
+            <Button variant="outline">Resume</Button>
+            <Button variant="outline">Contact</Button>
           </div>
         </div>
       </div>
