@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
           <motion.div
             key={index}
             variants={item}
-            whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgb(59 130 246 / 1%)" }}
+            whileHover={{ scale: 1.05}}
             whileTap={{ scale: 0.95 }}
             className="relative group"
           >
