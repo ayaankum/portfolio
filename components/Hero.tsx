@@ -39,14 +39,14 @@ export default function HeroSection() {
 
     // Create lines
     const createLines = () => {
-      const lineCount = 15
+      const lineCount = 10
       for (let i = 0; i < lineCount; i++) {
         lines.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
           length: 100 + Math.random() * 100,
           angle: Math.random() * Math.PI * 2,
-          speed: 0.2 + Math.random() * 10,
+          speed: 0.2 + Math.random() * 9,
           color: 'rgba(59, 130, 246, 0.2)' // Blue color with low opacity
         })
       }
@@ -91,31 +91,47 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-black">
+    <section className="relative min-h-screen w-full overflow-hidden bg-black">
       <canvas
         ref={canvasRef}
         className="absolute inset-0 h-full w-full"
       />
-      <div className="relative z-10">
-        <div className="flex min-h-screen flex-col items-center justify-center px-4 text-center">
-          <p className="mb-4 text-lg text-gray-300">
-            {titleText}
-          </p>
-          <h1 className="mb-8 text-4xl font-bold text-white md:text-6xl">
-            {roleText}
-            <span className="text-blue-500"> developer</span>
-          </h1>
-          <div className="flex gap-4">
-            <Button
-              variant="outline"
-              onClick={() => window.open('https://drive.google.com/file/d/1lXEK9IBoYk2-PCQ9S5inRexX2QeSDtPQ/view?usp=sharing', '_blank')}
-            >
-              Resume
-            </Button>
-            <Button variant="outline">Contact</Button>
+      <div className="relative z-10 px-4 pb-24 pt-16 sm:px-6 sm:pb-32 sm:pt-24 lg:px-8 mt-20">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-8">
+            <div className="flex flex-col justify-center">
+
+              <h1 className="mt-4 max-w-4xl text-5xl font-bold tracking-tight text-white sm:text-7xl">
+                Java and React
+                <br />
+                <span className="text-blue-500">Developer</span>
+              </h1>
+              <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
+                An AI-native platform for personalized skill assessments and learning. 
+                Whether you're a student or a business, TestMySkills adapts to help 
+                you grow faster than ever.
+              </p>
+              <div className="mt-10 flex gap-4">
+                <Button
+                  variant="outline"
+                  onClick={() => window.open('https://drive.google.com/file/d/1lXEK9IBoYk2-PCQ9S5inRexX2QeSDtPQ/view?usp=sharing', '_blank')}
+                  className="rounded-full px-8"
+                  size="lg"
+                >
+                  Resume
+                </Button>
+                <Button 
+                  variant="outline"
+                  className="rounded-full px-8"
+                  size="lg"
+                >
+                  Contact
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  )
+    </section>
+  );
 }
