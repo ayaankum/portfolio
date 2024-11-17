@@ -106,7 +106,12 @@ export default function HeroSection() {
             <span className="text-blue-500"> developer</span>
           </h1>
           <div className="flex gap-4">
-            <Button variant="outline">Resume</Button>
+            <Button
+              variant="outline"
+              onClick={() => window.open('https://drive.google.com/file/d/1lXEK9IBoYk2-PCQ9S5inRexX2QeSDtPQ/view?usp=sharing', '_blank')}
+            >
+              Resume
+            </Button>
             <Button variant="outline">Contact</Button>
           </div>
         </div>

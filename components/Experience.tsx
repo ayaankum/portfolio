@@ -11,27 +11,29 @@ export default function Component() {
               <div className="w-4 h-4 bg-blue-400 rounded-full [box-shadow:_0_0_8px_rgb(59_130_246_/_80%)]" />
             </div>
             <div className="flex items-baseline gap-2 mb-2">
-              <span className="text-sm text-blue-300 font-medium">2021</span>
-              <h3 className="text-xl font-semibold text-blue-400">Senior Python Developer</h3>
+              <span className="text-sm text-blue-300 font-medium">2024</span>
+              <h3 className="text-xl font-semibold text-blue-400">Zysk Technologies, Bengaluru</h3>
             </div>
-            <div className="text-blue-300 font-medium mb-2">Scottech, Toledo</div>
+            <div className="text-blue-300 font-medium mb-2">Fullstack Intern</div>
             <p className="text-slate-300 leading-relaxed">
-              Led development of high-performance Python applications and microservices. Architected and implemented scalable
-              solutions for data processing and analysis. Mentored junior developers and established best practices for code
-              quality and testing.
+            Contributed to the development of a generative AI-based skill testing platform. My responsibilities included building dynamic web applications using Next.js, integrating APIs, optimizing performance, and creating responsive UI designs to enhance user experience.
             </p>
             <div className="flex flex-wrap gap-2">
-            <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
-              JavaScript
-            </span>
+            
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
               TypeScript
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
-              React
+              NexJS
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
-              Storybook
+              Postgress
+            </span>
+            <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
+              LangGraph
+            </span>
+            <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
+              Generative AI
             </span>
           </div>
           </div>
@@ -42,27 +44,30 @@ export default function Component() {
               <div className="w-4 h-4 bg-blue-400 rounded-full [box-shadow:_0_0_8px_rgb(59_130_246_/_80%)]" />
             </div>
             <div className="flex items-baseline gap-2 mb-2">
-              <span className="text-sm text-blue-300 font-medium">2021</span>
-              <h3 className="text-xl font-semibold text-blue-400">Python Developer</h3>
+              <span className="text-sm text-blue-300 font-medium">2024</span>
+              <h3 className="text-xl font-semibold text-blue-400">Cognizant, Bengaluru</h3>
             </div>
-            <div className="text-blue-300 font-medium mb-2">AutoGrid Systems, Naperville</div>
+            <div className="text-blue-300 font-medium mb-2">GenC Intern</div>
             <p className="text-slate-300 leading-relaxed">
-              Developed and maintained Python-based automation tools and scripts. Collaborated with cross-functional teams to
-              implement new features and optimize existing codebase. Participated in code reviews and documentation efforts.
+            Engineered generative AI projects, focusing on leveraging advanced machine learning models for practical applications. My work involved developing and fine-tuning AI models, integrating them into workflows, and conducting thorough testing to ensure high-quality performance.
             </p>
             <div className="flex flex-wrap gap-2">
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
               JavaScript
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
-              TypeScript
+              Python
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
               React
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
-              Storybook
+              FastAPI
             </span>
+            <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
+              MongoDB
+            </span>
+            
           </div>
           </div>
           

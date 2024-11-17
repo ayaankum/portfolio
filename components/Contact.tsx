@@ -24,20 +24,19 @@ const ContactForm = () => {
 
   
   return (
-    <div className="max-w-5xl mx-auto p-6 rounded-lg shadow-lg">
+    <div className="max-w-5xl mx-auto p-6 rounded-lg shadow-lg contact">
         <h2 className="text-6xl font-bold mb-12 text-blue-400 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
         Contact
       </h2>
       <form action="mailto:ayaanrk132@gmail.com" className="space-y-6">
 
         <div className="space-y-2">
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
           <textarea
             id="message"
             {...register('message')}
             placeholder="Your message"
             rows={6}
-            className={`w-full p-3 bg-transparent border rounded-md ${errors.message ? 'border-red-500' : ' border-blue-400'} focus:outline-none focus:ring-2 focus:ring-blue-500`}
+            className={`w-full p-3 text-white bg-transparent border rounded-md ${errors.message ? 'border-red-500' : ' border-blue-400'} focus:outline-none focus:ring-2 focus:ring-blue-500`}
           />
           {errors.message && <p className="text-sm text-red-500 mt-1">{errors.message.message}</p>}
         </div>
