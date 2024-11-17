@@ -24,7 +24,7 @@ export default function Component() {
               TypeScript
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
-              NexJS
+              NextJS
             </span>
             <span className="px-3 py-1 text-sm rounded-full bg-slate-800 text-blue-400 border border-blue-400/50 [text-shadow:_0_0_10px_rgb(59_130_246_/_50%)]">
               Postgress
